@@ -88,6 +88,26 @@ def my_func(x, y):
 print(my_func(positive, negative))
 
 
+# Задача 5
+
+sums = 0
+bulls = True
+
+while bulls is True:
+    figures = input("Введите числа через пробел : ")
+
+    figures_arr = figures.split()
+
+    for el in figures_arr:
+        if el == "q":
+            bulls = False
+            break
+
+        sums = sums + int(el)
+
+    print(sums)
+
+"""
 
 # Задача 6
 
@@ -113,23 +133,6 @@ for el in words_arr:
 
 print(arr_title)
 
-"""
 
-# Задача 5
 
-sums = 0
-bulls = True
 
-while bulls is True:
-    figures = input("Введите числа через пробел : ")
-
-    figures_arr = figures.split()
-
-    for el in figures_arr:
-        if el == "q":
-            bulls = False
-            break
-
-        sums = sums + int(el)
-
-    print(sums)
