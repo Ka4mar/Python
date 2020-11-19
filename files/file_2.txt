@@ -1,0 +1,3 @@
+applies for any interactive input this includes calls
+used to display operators as well as queries
+the interpreter's own queries and its error messages
